@@ -1,15 +1,5 @@
-print('Date: 18Aug2018')
-
-#Take two number from user and do thier addition
-
-intFirstNumber = input('Enter first value: ')
-intSecondNumber = input('Enter second value: ')
-
-result = int(intFirstNumber) + int(intSecondNumber)
-print('Addition of two number is : ', result )
-
-
-
+print('Date: 18Aug2018\n\n')
+#First program
 strName = input('Enter Your Name: ')
 print('Hello ', strName, '\n')
 
