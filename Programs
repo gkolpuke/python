@@ -1,0 +1,14 @@
+1) W.A.P to accept a string from user & display a string of first 2 characters & last 2 characters
+2) W.A.P to accept a string from user & replace the occurance of first charcter in remaning part of string with '*'
+  example-
+    'babble' O/P => 'ba**le'
+3) W.A.P to accept a 2 string from user & jumble them
+  example-
+    'Dog' & 'Dinner'
+    O/P=> 'Dig' & Donner
+    { swap the first 2 charcters of first string with second string & second string with first string }
+4) W.A.P to accept a 2 string from user & check if second string is right ratation or not
+  example-
+    'Manager' & 'germana'
+    { True -- mana ger }
+5) W.A.P to accept a string from user & replace 'not bad' with 'good'
