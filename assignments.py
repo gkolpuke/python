@@ -55,8 +55,18 @@ print('Second String: ' + str2[:2] + str1[2:])
     { True -- mana ger }
 '''
 print('\n---Right rotation---')
+str1 = input('Enter first string: ')
+str2 = input('Enter second string: ')
+strPart = str2.partition(str1[:1])
+if( strPart[0] in str1 and strPart[1] in str1 and strPart[2] in str1 ) :
+    print('Valid')
+else:
+    print('Invalid')
 
 '''
 5) W.A.P to accept a string from user & replace 'not bad' with 'good'
 '''
 print('\n---Replace string---')
+str1 = input('Enter a string: ')
+resultString = str1[:str1.find('not')] + 'good' + str1[str1.find('bad')+3:]
+print('Resulted string: ' + resultString)
